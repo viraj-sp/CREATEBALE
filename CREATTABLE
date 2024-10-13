@@ -1,0 +1,9 @@
+CREATE TABLE employees_fraud (
+    employee_id INT PRIMARY KEY,
+    employee_name  NOT NULL,
+    department TEXT,
+    job_title TEXT,
+    fraud_type TEXT,
+    fraud_date TEXT,
+    fraud_amount INT,
+);
